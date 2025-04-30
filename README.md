@@ -49,7 +49,11 @@ npx cypress run
 
 ## 📄 Manual Test Cases
 
+<<<<<<< HEAD
 Manual test cases are documented in [manual-test-ecom.xlsx](https://docs.google.com/spreadsheets/d/1WlyEGvw9vApId4xCpVf6nuh8mikDooCn/edit?usp=sharing&ouid=110826700699682818265&rtpof=true&sd=true), covering both positive and negative scenarios.
+=======
+Manual test cases are documented in [manual-test-cases.xlsx](https://www.saucedemo.com), covering both positive and negative scenarios.
+>>>>>>> 3cc9c09a3223ff9abac7e5670e28170433be2a8d
 
 
 ## 📌 Notes

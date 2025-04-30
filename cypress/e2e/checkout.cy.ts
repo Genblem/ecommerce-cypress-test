@@ -17,7 +17,7 @@ describe('Checkout Process', () => {
     it('should complete checkout with valid info', () => {
       cy.url().should('include', '/checkout-step-one.html')
   
-      cy.get('[data-test="firstName"]').type('Tul')
+      cy.get('[data-test="firstName"]').type('Tull')
       cy.get('[data-test="lastName"]').type('Tester')
       cy.get('[data-test="postalCode"]').type('12345')
       cy.get('[data-test="continue"]').click()

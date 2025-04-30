@@ -35,3 +35,41 @@ npx cypress open
 
 # Run all tests headlessly
 npx cypress run
+
+## 📂 Project Structure
+
+ecommerce-cypress-tests/ ├── cypress/ │ └── e2e/ │ ├── login.cy.ts │ ├── search.cy.ts │ └── checkout.cy.ts ├── test-cases.xlsx # Manual test cases ├── cypress.config.ts ├── package.json └── README.md
+
+
+---
+
+## 🛠️ How to Install & Run Tests
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/ecommerce-cypress-tests.git
+cd ecommerce-cypress-tests
+2. Install Dependencies
+Make sure you have Node.js v16+ installed.
+
+npm install
+3. Run Cypress Tests (Headed or Headless)
+
+# Headed mode (interactive)
+npx cypress open
+
+# Headless mode
+npx cypress run
+📄 Manual Test Cases
+Manual test cases are documented in test-cases.xlsx, covering both positive and negative scenarios.
+
+🐞 Bug Reports (Optional)
+This project also includes sample bug observations, documented in GitHub Issues (if available).
+
+📌 Notes
+This project was created as part of a career shift from creative media (video editing) to software testing.
+It demonstrates basic QA workflow including test design, execution, and reporting using modern tools.
+
+📫 Contact
+Feel free to connect via GitHub or LinkedIn. Feedback is welcome!

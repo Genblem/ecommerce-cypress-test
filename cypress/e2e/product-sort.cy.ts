@@ -6,7 +6,7 @@ describe('Product Sort/Filter', () => {
       cy.get('[data-test="login-button"]').click()
     })
   
-    it('should sort products by Name (Z to A)', () => {
+    it('should sort products by Name (A to Z)', () => {
        //  รอให้ URL เปลี่ยนเป็นหน้าหลัง login
       cy.url().should('include', '/inventory.html')
       cy.wait(3000) // รอ 3 วินาที
